@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suadiye Balık</title>
+
+    <!--
+    - custom css link 
+  -->
+    <link rel="stylesheet" type="text/css" href="foodhub.css">
+    <link rel="stylesheet" type="text/css" href="media_query.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        #gallery {
+            text-align: center;
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .gallery-item {
+            display: block;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--
+    - main container
+  -->
+  <header>
+    <h1>SUADİYE BALIK</h1>
+</header>
+  <nav>
+    <ul>
+        <li><a href="web.html">Home Page</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="menü.html">Menu</a></li>
+        <li><a href="contact.html">Online Reservation</a></li>
+        <li><a href="contactUs.html">Contact Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+
+
+    </ul>
+</nav>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+            <img src="images/1.jpeg" height="300"   alt="Image 1">
+        <img src="images/2.jpg"  height="300"  alt="Image 2">
+        <img src="images/3.jpeg"  height="300"  alt="Image 3">
+        <img src="images/4.jpg"  height="300"  alt="Image 4">
+        <img src="images/5.jpeg"  height="300"  alt="Image 5">
+        <img src="images/6.jpg"  height="300" width="215"  alt="Image 6"><br>
+        <img src="images/7.jpeg"  height="300"  alt="Image 7">
+        <img src="images/8.jpeg"  height="300"  alt="Image 8">
+        <img src="images/9.jpg"  height="300"  alt="Image 9">
+        <img src="images/10.jpeg"  height="300"  alt="Image 10">
+    </div>
+</section>
+<br>
+<br>
+<br>
+
+<main>
+    <section>
+        <p>
+        </p>
+    </section>
+</main>
+
+    <!--
+      - #FOOTER
+    -->
+    <footer>
+
+        <body>
+
+
+            <div class="footer-wrapper">
+
+                <a href="#">
+                    <img src="./images\WhatsApp Image 2023-12-22 at 22.58.22.jpeg" class="footer-band" width="130">
+                </a>
+
+                <!-- Diğer sayfa içeriği buraya gelecek -->
+
+                <!-- Instagram logosu ve yönlendirme için JavaScript kodu -->
+                <a href="#" id="instagramLogo">
+                    <img src="./images/instagram-seeklogo.com.svg" alt="Instagram Logo">
+                </a>
+
+                <script>
+                    // Instagram logosuna tıklandığında sayfaya yönlendirme
+                    document.getElementById("instagramLogo").addEventListener("click", function () {
+                        window.location.href = "https://www.instagram.com/suadiyebalik/";
+                    });
+                </script>
+
+
+            </div>
+        </body>
+    </footer>
+
+    </div>
+
+
+
+
+    <body>
+
+
+        <script src=".bak/js/foodhub.js"></script>
+
+    </body>
+
+</html>

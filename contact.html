@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suadiye Balık</title>
+
+    <!--
+    - custom css link 
+ -->
+    <link rel="stylesheet" type="text/css" href="foodhub.css">
+    <link rel="stylesheet" type="text/css" href="media_query.css">
+
+    <!--
+    - google font link
+ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <h1>SUADİYE BALIK</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="web.html">Home Page</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menü.html">Menu</a></li>
+            <li><a href="contact.html">Online Reservation</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <section>
+        <form>
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Tarih:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Saat:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="people">Kişi Sayısı:</label>
+            <select id="people" name="people">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+            <br>
+
+            <button style=" background-color: yellow;
+            border: 2px solid black;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            " type="submit">Make a Reservation</button>
+            
+        </form>
+    </section>
+    <script>
+        document.querySelector("form").addEventListener("submit", function (event) {
+            event.preventDefault(); // Sayfa yenilenmesini engelle
+        
+            // Burada eğer hata varsa bir uyarı ver ve bunu kullanıcıya bildiriyoruz.
+            // Hata yoksa rezervasyon başarılı olduğunu bildiren bir mesaj gösteriyoruz.
+            alert("Your reservation has been created successfully");
+        });
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <br>
+
+    <footer>
+
+        <body>
+
+            <div class="footer-wrapper">
+
+                <a href="#">
+                    <img src="./images\WhatsApp Image 2023-12-22 at 22.58.22.jpeg" class="footer-band" width="130">
+                </a>
+
+                <!-- Diğer sayfa içeriği buraya gelecek -->
+
+                <!-- Instagram logosu ve yönlendirme için JavaScript kodu -->
+                <a href="#" id="instagramLogo">
+                    <img src="./images/instagram-seeklogo.com.svg" alt="Instagram Logo">
+                </a>
+
+                <script>
+                    // Instagram logosuna tıklandığında sayfaya yönlendirme
+                    document.getElementById("instagramLogo").addEventListener("click", function () {
+                        window.location.href = "https://www.instagram.com/suadiyebalik/";
+                    });
+                </script>
+
+
+            </div>
+        </body>
+    </footer>
+    <script src=".bak/js/foodhub.js"></script>
+
+</body>
+</html>
